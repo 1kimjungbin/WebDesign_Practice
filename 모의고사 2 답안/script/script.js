@@ -1,4 +1,4 @@
-+$(function(){
+$(function(){
     
     // menu
     $("#nav>ul>li").hover(function(){
@@ -26,5 +26,5 @@
     $(".layer .close").click(function(){
         $(".layer").hide();
         $(".layer_bg").hide();
-    })
+    });
 });

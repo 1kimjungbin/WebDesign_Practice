@@ -1,0 +1,193 @@
+* {
+    background-color: #fff;
+    color: #222328;
+    margin: 0;
+    padding: 0;
+}
+
+.cf {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#wrap {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 1200px;
+    height: 100px;
+    background-color: red;
+    float: left;
+}
+
+#header .hlogo {
+    width: 200px;
+    height: 100px;
+    line-height: 120px;
+}
+
+#nav {
+    float: right;
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 100%;
+}
+
+#nav .menu {
+    position: relative;
+    top: 28px;
+    right: 60px;
+    width: 600px;
+    height: 210px;
+    background-color: transparent;
+    float: right;
+}
+
+#nav .menu ul li {
+    position: relative;
+    text-align: center;
+    float: left;
+    background-color: transparent;
+    z-index: 100;
+}
+
+#nav .menu ul>li>.hmenu {
+    border: 1px solid black;
+    border-right: none;
+}
+
+#nav .menu ul>li:last-child>.hmenu {
+    border-right: 1px solid black;
+    margin-left: -2px;
+    width: 152px;
+}
+
+#nav .menu ul li a {
+    position: relative;
+    display: block;
+    width: 150px;
+    padding: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#nav .menu ul li:hover>a {
+    color: #fff;
+    background-color: black;
+}
+
+#nav .menu ul li .submenu {
+    display: none;
+    position: absolute;
+    border: 1px solid black;
+    border-top: none;
+    width: 150px;
+}
+
+#nav .menu ul li:last-child .submenu {
+    margin-left: -2px;
+}
+
+
+#section {
+    width: 1200px;
+    height: 300px;
+    background-color: transparent;
+}
+
+#section .slide {
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+}
+
+#section .slide .slideList {
+    position: relative;
+}
+
+#section .slide .slideList img {
+    margin: 0;
+}
+
+.Cont {
+    position: relative;
+    top: 100px;
+    width: 1200px;
+    height: 200px;
+    background-color: purple;
+    margin: 0 auto;
+}
+
+.Cont .notice {
+    float: left;
+    width: 33%;
+    height: 200px;
+    background-color: red;
+}
+
+.Cont .banner {
+    position: relative;
+    float: left;
+    width: 34%;
+    left: 33%;
+    bottom: 220px;
+    height: 200px;
+    background-color: blue;
+}
+
+.Cont .bookmark {
+    position: relative;
+    float: right;
+    width: 33%;
+    height: 200px;
+    bottom: 220px;
+    background-color: greenyellow;
+}
+
+.Cont .notice a {
+    position: relative;
+    width: 60px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.Cont .noticeCont {
+    position: relative;
+    top: 0px;
+    width: 300px;
+    height: 140px;
+    border: 1px solid black;
+}
+
+.Cont .gallery a {
+    position: relative;
+    width: 60px;
+    bottom: 200px;
+    left: 60px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#footer {
+    width: 1200px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    top: 100px;
+}
