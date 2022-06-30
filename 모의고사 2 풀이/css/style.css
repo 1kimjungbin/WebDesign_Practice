@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #222328;
+}
+
+.cf::before, .cf::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+#wrap {
+    padding: 0;
+    margin: 0 auto;
+    width: 1000px;
+    height: 650px;
+}
+
+#side {
+    float: left;
+    width: 200px;
+    height: 650px;
+}
+
+#header {
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+}
+
+#header .hlogo img {
+    width: 180px;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+
+#nav {
+    width: 200px;
+    height: 550px;
+}
+
+#nav .menu {
+    position: relative;
+    top: 10px;
+    margin: 0 auto;
+    width: 170px;
+}
+
+#nav .menu ul {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nav .menu ul li.mainmenu {
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+#nav .menu ul li a {
+    padding: 10px;
+    display: block;
+    transition: 0.5s;
+}
+
+#nav .menu ul li ul.submenu {
+    display: none;
+}
+
+#nav .menu ul li:hover>a {
+    background: #000;
+    color: #fff;
+}
+
+
+#nav .menu ul li.mainmenu:last-child {
+    border-bottom: 1px solid black;
+}
+
+#section {
+    float: left;
+    width: 800px;
+    height: 550px;
+    background-color: #E1E2E1;
+}
+
+#slide {
+    width: 800px;
+    height: 350px;
+    margin: 0;
+    overflow: hidden;
+}
+
+#slide .slideBox .slideImg {
+    position: relative;
+}
+
+#slide .slideBox .slideImg p{
+    position: absolute;
+    overflow: hidden;
+}
+
+#slide .slideBox .slideImg .txt1 {
+    float: left;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+    margin-left: 90px;
+    margin-top: 200px;
+}
+
+#slide .slideBox .slideImg .txt2 {
+    float: left;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+#slide .slideBox .slideImg .txt3 {
+    float: left;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+    margin-left: 250px;
+    margin-top: 250px;
+}
+
+
+#contents {
+    float: left;
+    width: 800px;
+    height: 200px;
+}
+
+#contents .notice {
+    float: left;
+    width: 33%;
+    height: 200px;
+}
+
+#contents .gallery {
+    float: left;
+    width: 33%;
+    height: 200px;
+    background-color: transparent;
+    text-align: center;
+}
+
+#contents .bookmark {
+    float: left;
+    display: block;
+    width: 33%;
+    height: 200px;
+}
+
+#contents .bookmark .bookmarkImg img {
+    display: block;
+    position: relative;
+    top: 12px;
+    width: 100%;
+}
+
+#contents .notice .contH a.active {
+    border-bottom: 1px solid white;
+}
+
+#contents .notice .contH a {
+    border: 1px solid black;
+    padding: 5px;
+    position: relative;
+    top: 10px;
+    left: 15px;
+    font-size: 14px;
+}
+
+#contents .notice .cont {
+    border: 1px solid black;
+    width: 235px;
+    height: 120px;
+    margin-top: 14px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#contents .gallery .contH a.active {
+    border-bottom: 1px solid white;
+}
+
+#contents .gallery .contH a {
+    border: 1px solid black;
+    padding: 5px;
+    position: relative;
+    top: 10px;
+    right: 90px;
+    font-size: 14px;
+}
+
+#contents .gallery .cont {
+    border: 1px solid black;
+    width: 235px;
+    height: 120px;
+    margin-top: 14px;
+    padding: 10px;
+}
+
+#contents .gallery .cont .galleryImg {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#contents .gallery .cont .galleryImg img {
+    display: inline-block;
+    width: 69px;
+}
+
+#section .notice .cont a span.txt {
+    display: block;
+    float: left;
+    width: 160px;
+    padding: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid #000;
+    font-size: 12px;
+}
+
+.notice .cont a span.date {
+    width: 59px;
+    float: right;
+    padding: 4px;
+    border-bottom: 1px solid #000;
+    font-size: 12px;
+}
+
+#footer {
+    width: 800px;
+    height: 100px;
+    border: 1px solid transparent;
+    float: right;
+    position: relative;
+    bottom: 100px;
+}
+
+#footer .copyright {
+    width: 620px;
+    height: 100px;
+    text-align: center;
+    
+}
+
+#footer .sns {
+    width: 180px;
+    height: 50px;
+    float: right;
+    position: relative;
+    bottom: 102px;
+}
+
+#footer .familySite {
+    width: 180px;
+    height: 50px;
+    float: right;
+    position: relative;
+    bottom: 51px;
+    left: 182px;
+}
+
+#footer .copyright p {
+    display: block;
+    background-color: transparent;
+    margin-top : 25px;
+}
+
+#footer .sns img {
+    display: inline-block;
+    position: relative;
+    left: 18px;
+}
+
+#footer .familySite select {
+    display: block;
+    position: relative;
+    left: 25px;
+    top: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.layer_bg {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 50;
+}
+
+.layer {
+    display: none;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.layer .layerH{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #3849aa;
+    color: white;
+    z-index: 10;
+}
+
+.layer .layerH::after{
+    position: relative;
+    bottom: 23px;
+    padding: 0 233.3px;
+    width: 100px;
+    height: 80px;
+    line-height: 60px;
+    background-color: #00227a;
+    color: transparent;
+    content: "after";
+}
+
+.layer .layerC {
+    width: 100%;
+    height: 370px;
+    background-color: #E1E2E1;
+}
+
+.layerC p{
+    display: block;
+    position: relative;
+    top: 10%;
+    background-color: transparent;
+    padding: 20px;
+}
+
+.layer .layerF {
+    width: 100%;
+    height: 70px;
+    background-color: #F5F5F6;
+}
+
+.layer .layerH .lh{
+    color: white;
+    background-color: transparent;
+    font-size: 24px;
+    padding: 0 20px;
+}
+
+.layer .layerF .close{
+    position: relative;
+    float: right;
+    right: 30px;
+    bottom: 25px;
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    background-color: #3849aa;
+}
+
+.layer .layerF .close a {
+    display: block;
+    position: relative;
+    width: 15px;
+    background-color: transparent;
+    color: #F5F5F6;
+    font-size: 30px;
+    margin: 0 auto;
+    top: 5px;
+    right: 2px;
+}
+
+.bookmark .bookmarkImg p {
+    position: absolute;
+    z-index: 10;
+}
+
+.bookmark .bookmarkImg .imgtxt {
+    margin-top: 115px;
+    margin-left: 59px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 5px;
+}

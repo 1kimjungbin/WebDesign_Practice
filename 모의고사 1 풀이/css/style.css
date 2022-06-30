@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #222328;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.cf {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+#wrap {
+    width: 1198px;
+    height: 698px;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: #fff;
+}
+
+.hlogo {
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    float: left;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.hlogo img {
+    position: relative;
+    top: 10px;
+}
+
+.hlogo h2 {
+    position: relative;
+    top: 28px;
+    text-align: center;
+}
+
+#header .menu {
+    width: 600px;
+    float: right;
+    margin-top: 28px;
+    margin-right: 10px;
+    z-index: 100;
+}
+
+#header .menu ul li {
+    float: left;
+    position: relative;
+    width: 150px;
+    text-align: center;
+}
+#header .menu ul li a {
+    display: block;
+    padding: 12px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+#header .menu ul>li>.hmenu {
+    padding: 12px;
+    border: 1px solid black;
+    border-right: none;
+    
+}
+
+#header .menu ul>li:last-child>.hmenu {
+    border-right: 1px solid black;
+    margin-left: -2px;
+}
+
+#header .menu ul li:hover>a {
+    background: #000;
+    color: #fff;
+}
+#header .menu li ul.submenu {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 44px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    z-index: 100;
+}
+
+#header .menu ul>li:last-child>.submenu {
+    left: -2px;
+    margin-left: 0;
+}
+
+#section {
+    width: 1198px;
+    height: 498px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+#slideList {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+#section .imgSlide {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+#section .slideImg {
+    width: 1200px;
+    height: 300px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    position: relative;
+    bottom: 4px;
+}
+
+#section .imgSlide .slideImg img {
+    display: block;
+    width: 1200px;
+    height: 300px;
+}
+
+#section .contBox {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    bottom: 1px;
+}
+
+#section .info {
+    float: left;
+    width: 399.3px;
+    height: 198px;
+}
+
+#section .info .tabmenu .tabBtn ul li{
+    z-index: 50;
+    background-color: #ddd;
+    float: left;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 6px 15px 6px 15px;
+    position: relative;
+    margin-bottom: -1px;
+}
+
+#section .info .tabmenu .tabBtn ul li:first-child {
+    border-top-left-radius: 10px;
+}
+
+#section .info .tabmenu .tabBtn ul li:last-child {
+    border-top-right-radius: 10px;
+}
+
+#section .info .tabmenu .tabBtn ul li a{
+    color: gray;
+    background-color: transparent;
+}
+
+#section .info .tabmenu .tabBtn ul li.active{
+    background-color: #fff;
+    border-bottom: 1px solid white;
+    font-weight: bold;
+}
+
+#section .info .tabmenu .cont {
+    z-index: 49;
+    float: left;
+    width: 398px;
+    height: 163px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-top-right-radius: 10px;
+    box-sizing: border-box;
+}
+
+#section .info .tabmenu .cont a {
+    font-size: 13px;
+}
+
+#section .info .tabmenu .cont a:hover {
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+#section .info .tabmenu .cont .notice hr {
+    width: 365px;
+    position: relative;
+    left: 15px;
+    top: 2px;
+}
+
+#section .info .tabmenu .cont span {
+    font-size: 13px;
+    float: right;
+    position: relative;
+    background-color: transparent;
+    top: 2px;
+    right: 17px;
+}
+
+#section .info .tabmenu .tabBtn ul li:last-child{
+    border-left: none;
+}
+
+#section .banner {
+    float: left;
+    width: 400px;
+    height: 200px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+#section .bookmark {
+    float: right;
+    width: 394px;
+    height: 200px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+#section .bookmark .bookmarkImg img {
+    width: 394px;
+    height: 200px;
+}
+
+#footer {
+    width: 1200px;
+    height: 100px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+#footer .footerLogo {
+    float: left;
+    width: 200px;
+    height: 100px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+#footer .footerLogo img {
+    position: relative;
+    top: 25%;
+}
+
+#footer .copy {
+    float: left;
+    width: 800px;
+    height: 100px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    text-align: center;
+}
+
+#footer .copy p {
+    position: relative;
+    top: 25%;
+}
+
+#footer .sns {
+    float: right;
+    width: 192px;
+    height: 100px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+#footer .sns img {
+    padding: 5px;
+    position: relative;
+    top: 25%;
+    left: 6%;
+}
+
+#section .info .tabmenu .cont .notice a {
+    padding: 0px 0px 0px 15px;
+}
+
+#section .info .tabmenu .cont .notice span {
+    font-weight: bold;
+}
+
+#section .info .tabmenu .cont .gallery img {
+    width: 130px;
+    float: left;
+    text-align: center;
+    top: 20px;
+    left: 2px;
+    position: relative;
+}
+
+.layer_bg {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 90;
+}
+
+.layer {
+    z-index: 100;
+    display: none;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 25%;
+    left: 36%;
+    border: 3px solid black;
+    padding: 15px;
+}
+
+.cancel {
+    width: 60px;
+    height: 30px;
+    float: right;
+    position: relative;
+    top: 20%;
+    line-height: 30px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10%;
+}
